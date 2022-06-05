@@ -15,14 +15,17 @@ Deploy opensocks server to cloud
 
 ### client cmdline:
 
-./opensocks-linux-amd64 -s=[?].herokuapp.com:80 -l=0.0.0.0:1088 -k=helloworld -scheme ws -obfs
+./opensocks-linux-amd64 -s=[you path?].herokuapp.com:80 -l=0.0.0.0:1088 -k=helloworld -scheme ws -obfs
 
 ## Config Vars
 ```
 PORT = 8080
 KEY = helloworld
-OBFS = false
+OBFS = true
 ```
 
-heroku success to overwrite the env vars.
-but okteto how to ? change the code ?
+Note:
+
+heroku can reset the env vars anytime, both create age or edit age later.
+
+but okteto can only reset during image creating age.
