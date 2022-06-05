@@ -3,7 +3,7 @@ module github.com/net-byte/opensocks-cloud
 // +heroku goVersion go1.18
 go 1.18
 
-require github.com/net-byte/opensocks v1.5.9
+require github.com/ilovecar/opensocks v1.5.9
 
 require (
 	github.com/gobwas/httphead v0.1.0 // indirect
