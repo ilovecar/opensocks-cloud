@@ -28,4 +28,4 @@ Note:
 
 heroku can reset the env vars anytime, both create age or edit age later.
 
-but okteto can only reset during image creating age.
+okteto can also reset env vars, in **redeploy** button.
