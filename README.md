@@ -9,13 +9,20 @@ Deploy opensocks server to cloud
 
 ## Deploy
 
-[![Deploy to heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/net-byte/opensocks-cloud/tree/main)
+[![Deploy to heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ilovecar/opensocks-cloud/tree/main)
 
-[![Deploy to okteto](https://okteto.com/develop-okteto.svg)](https://cloud.okteto.com/deploy?repository=https://github.com/net-byte/opensocks-cloud)
+[![Deploy to okteto](https://okteto.com/develop-okteto.svg)](https://cloud.okteto.com/deploy?repository=https://github.com/ilovecar/opensocks-cloud)
+
+### client cmdline:
+
+./opensocks-linux-amd64 -s=[?].herokuapp.com:80 -l=0.0.0.0:1088 -k=helloworld -scheme ws -obfs
 
 ## Config Vars
 ```
 PORT = 8080
-KEY = 123456
+KEY = helloworld
 OBFS = false
 ```
+
+heroku success to overwrite the env vars.
+but okteto how to ? change the code ?
